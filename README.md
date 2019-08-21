@@ -1,11 +1,8 @@
 # NeoSolarized
 Another solarized color theme for truecolor neovim / vim.
-![Screenshot-dark](http://ww3.sinaimg.cn/large/5d4db8f9gw1f88o0e8r6mj21kw11hqcx.jpg)
-![Screenshot-light](http://ww3.sinaimg.cn/large/5d4db8f9gw1f8bkj8fnghj21kw11n7et.jpg)
-Fork from [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized), Features:
-- truecolor support for neovim/vim terminal, and works well in Gvim/MacVim.
-- define color for neovim's embed terminal.
-- define color for [Neomake](https://github.com/neomake/neomake), [GitGutter](https://github.com/airblade/vim-gitgutter), [ALE](https://github.com/w0rp/ale)
+
+Fork from [NeoSolarized](https://github.com/icymind/NeoSolarized.git) with
+little darker background for better contrast.
 
 ## Requirements
 - A [terminal](https://gist.github.com/XVilka/8346728) which supports truecolor
@@ -30,7 +27,7 @@ Move NeoSolarized.vim to your vim RunTimePath directory:
     mv NeoSolarized.vim ~/.vim/colors/
     ```
 - Plugin managers: [vim-plug](https://github.com/junegunn/vim-plug):
-    - Add `Plug 'iCyMind/NeoSolarized'` to your `init.vim` or `.vimrc` file.
+    - Add `Plug 'sleggt/NeoSolarized'` to your `init.vim` or `.vimrc` file.
     - Run `:PlugInstall` after resourcing/relaunching.
 
 After the installation, configure it as your colorscheme by putting the following line into your `init.vim` or `.vimrc` file:
