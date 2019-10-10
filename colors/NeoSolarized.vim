@@ -134,7 +134,7 @@ let colors_name = "NeoSolarized"
 "
 " Set gui and terminal at the same time.
     let s:gui_mode       = "gui"
-    let s:gui_base03      = "#001F26"
+    let s:gui_base03      = "#00191d"
     let s:gui_base02      = "#073642"
     let s:gui_base01      = "#586e75"
     let s:gui_base00      = "#657b83"
